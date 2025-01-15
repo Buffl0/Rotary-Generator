@@ -32,19 +32,12 @@ body {
     width: 555px;
     height: 100%;
 }
-#preview-wrapper[data-active="true"]{
-    filter: opacity(1);
-    transform: translateY(0);
-}
+
 #preview-wrapper {
     position: fixed;
     inset-block: 0;
     margin-block: auto;
-    filter: opacity(0);
-    transition:
-        filter 300ms,
-        transform 300ms;
-    transform: translateY(-100%);
+
     width: 555px;
     height: 678px;
     display: grid;

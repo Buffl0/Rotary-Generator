@@ -25,7 +25,6 @@ let guestDescriptionInput = document.getElementById("guest-description-input");
 let photoUpdateBtn = document.getElementById("photo-update-btn");
 let changeTimeBtn = document.getElementById("change-time-btn");
 let changeAddressBtn = document.getElementById("change-address-btn");
-let updateBtn = document.getElementById("update-btn");
 let submitBtn = document.getElementById("submit-btn");
 
 // other variables 
@@ -39,20 +38,7 @@ let meetingTimeWrapper = document.getElementById("meeting-time-wrapper");
 
 // event listeners
 
-updateBtn.addEventListener("click", () => {
-    switch (updateBtn.dataset.active) {
-        case "false":
-            updateBtn.innerHTML = "Schowaj podgląd";
-            updateBtn.dataset.active = "true";
-            previewWrapper.dataset.active = "true";
-            break;
-        case "true":
-            updateBtn.innerHTML = "Pokaż podgląd";
-            updateBtn.dataset.active = "false";
-            previewWrapper.dataset.active = "false";
-            break;
-    }
-});
+
 changeAddressBtn.addEventListener("click", () => {
 
     switch (changeAddressBtn.dataset.active) {
