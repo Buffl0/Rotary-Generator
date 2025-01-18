@@ -133,7 +133,8 @@ submitBtn.addEventListener("click", (e) => {
 
     html2canvas(previewWrapper, {
         backgroundColor: null, // Ustawienie tła przezroczystego
-        scale: 2, // Zwiększenie rozdzielczości obrazu
+        height: 630,
+        width: 555,
     }).then(canvas => {
         // Konwertuj canvas na obraz PNG
         const image = canvas.toDataURL("image/png");
