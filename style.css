@@ -30,16 +30,15 @@ body {
 
 #preview-clip {
     width: 555px;
-    height: 100%;
 }
 
 #preview-wrapper {
     position: fixed;
     inset-block: 0;
     margin-block: auto;
-
+    
     width: 555px;
-    height: 678px;
+    height: 630px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -47,7 +46,6 @@ body {
 }
 
 .left {
-    box-shadow: rgba(0, 0, 0, 0.45) 25px 0px 20px -20px;
     display: flex;
     flex-direction: column;
     background-color: var(--clr-main);
@@ -265,7 +263,7 @@ body {
                 background-color: #322E41;
                 border: none;
                 border-radius: 5px;
-                box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+                : rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
                 color: var(--clr-light);
                 font-size: 1.1em;
                 font-weight: 700;
